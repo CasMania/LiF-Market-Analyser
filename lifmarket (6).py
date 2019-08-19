@@ -37,7 +37,7 @@ import dns.reversename
 # In[53]:
 
 
-client = MongoClient("mongodb+srv://CasMania:Geforcefx5200@lifmarketcluster-zkfv0.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://username:password@lifmarketcluster-zkfv0.mongodb.net/test?retryWrites=true&w=majority")
 db = client.get_database('LiFMarketData')
 dbminitemprice = db.MinItemPrice
 dbmarketvolume = db.MarketVolume
